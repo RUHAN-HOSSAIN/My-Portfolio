@@ -1,0 +1,54 @@
+ # Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account*.json
+.vscode
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+out/
+.cache/
+.parcel-cache/
+.vite/
+coverage/
+
+# Logs and local runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Local configuration and deployment files
+.vercel/
+.netlify/
+.firebase/
+firebase-debug.log
+*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

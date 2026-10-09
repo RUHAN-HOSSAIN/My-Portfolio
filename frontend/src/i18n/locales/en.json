@@ -1,0 +1,5 @@
+{
+  "nav": { "home": "Home", "about": "About", "skills": "Skills", "projects": "Projects", "experience": "Experience", "contact": "Contact" },
+  "home": { "greeting": "Hello World", "subtitle": "Welcome to my portfolio" },
+  "common": { "notFound": "Page not found" }
+}

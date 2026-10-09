@@ -1,10 +1,6 @@
+import { RouterProvider } from 'react-router-dom'
+import { router } from './routes/AppRoute'
 
-const App = () => {
-  return (
-    <div className="flex items-center justify-center h-screen text-3xl font-bold underline">
-      Ruhan Hossain Portfolio Website!
-    </div>
-  )
+export default function App() {
+  return <RouterProvider router={router} />
 }
-
-export default App
