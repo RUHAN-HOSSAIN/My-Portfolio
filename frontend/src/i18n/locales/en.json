@@ -1,5 +1,11 @@
 {
   "nav": { "home": "Home", "about": "About", "skills": "Skills", "projects": "Projects", "experience": "Experience", "contact": "Contact" },
-  "home": { "greeting": "Hello World", "subtitle": "Welcome to my portfolio" },
+  "home": {
+    "name": "Ruhan Hossain",
+    "intro": "I am a Computer Science and Engineering student at Rajshahi University of Engineering & Technology (RUET), Bangladesh.",
+    "interestsTitle": "Interests",
+    "interests": "I am interested in software development and competitive programming.",
+    "connectTitle": "Connect with me"
+  },
   "common": { "notFound": "Page not found" }
 }
