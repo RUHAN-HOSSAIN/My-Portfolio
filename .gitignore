@@ -9,7 +9,9 @@
 secrets.json
 credentials.json
 service-account*.json
+
 .vscode
+*.md
 
 # Dependencies and build output
 node_modules/
