@@ -3,8 +3,8 @@ import { useTheme } from '../../providers/ThemeContext'
 
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme()
-  const Icon = theme === 'dark' ? Moon : Sun
-  const nextTheme = theme === 'dark' ? 'light' : 'dark'
+  const Icon = theme === 'dark' ? Sun : Moon;
+  const nextTheme = theme === 'dark' ? 'light' : 'dark';
   return (
     <button
       onClick={toggleTheme}
